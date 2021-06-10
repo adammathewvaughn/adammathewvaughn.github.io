@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h1 class="text-center">First Bootstrap Project</h1>
+    </div>
+    <div class="row">
+      <div class="col-4">Some random text content.</div>
+      <div class="col-4 text-center">Text content galore.</div>
+      <div class="col-4 text-right">Yet more text content.</div>
+    </div>
+    <div class="row">
+      <form class="col py-3 border border-primary">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="example: jjjingleheimer-schmidt@yahoo.com">
+          <small id="emailHelp" class="form-text text-muted">We'll absolutely share your email with anyone. Literally
+            anyone. They don't even have to pay us, we'll just give it to them.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Cat
+              </label>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Dog
+              </label>
+            </div>
+          </div>
+        </div>
+        <fieldset class="form-group">
+          <div class="row">
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Cheese Pizza
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" checked>
+                <label class="form-check-label" for="gridRadios2">
+                  Hawaiin Pizza
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
+                <label class="form-check-label" for="gridRadios3">
+                  Supreme Pizza
+                </label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col-6 p-0">
+      <div class="card-group-grid border border-info px-0">
+        <div class="card-body">
+          <h3 class="card-title">Bob</h3>
+          <p class="card-text">Bob makes the best pancakes in the whole world.</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-6 p-0">
+      <div class="card-group-grid border border-info px-0">
+        <div class="card-body">
+          <h3 class="card-title">Tom</h3>
+          <p class="card-text">Tom is an old friend from college.</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-6 p-0">
+      <div class="card-group-grid border border-info px-0">
+        <div class="card-body">
+          <h3 class="card-title">Sally</h3>
+          <p class="card-text">Sally and I worked together for many years.</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-6 p-0">
+      <div class="card-group-grid border border-info px-0">
+        <div class="card-body">
+          <h3 class="card-title">John</h3>
+          <p class="card-text">John once killed a man and I helped him hide the body. Shhhh...</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-6 p-0">
+      <div class="card-group-grid border border-info px-0">
+        <div class="card-body">
+          <h3 class="card-title">Jack</h3>
+          <p class="card-text">Jack is a great swimmer!</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-6 p-0">
+      <div class="card-group-grid border border-info px-0">
+        <div class="card-body">
+          <h3 class="card-title">Harry</h3>
+          <p class="card-text">I love playing card games with Harry.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
