@@ -56,7 +56,7 @@ for (var i = 100; i >=1; i--)  {
     whodunnitdiv.appendChild(peekaboopara)
    // h3.prepend(whodunnitdiv);
 //    whodunnitdiv.prepend(peekaboopara)
-     peekaboopara.innerHTML = "&#128064; Whodunnit? &#128064;";
+     peekaboopara.innerHTML = " ⚰ &#128128; &#9760; &#128064; Whodunnit? &#128064; &#9760; &#128128; ⚰";
     //  peekaboopara.innerHTML = `&#128064;${Whodunnit}&#128064;`; 
     accusationAlert(i);
 }
